@@ -36,7 +36,6 @@ namespace CosmosCopy
         }
 
         static IEnumerable<object> Read() {
-            // ar connection = "mongodb://cases-test:d4VTfVKosFYtRi2JaTCr4COJPa9vLnJ3gfEPoZHFJgUIxOVKzwxxMn6EI3IwiK8vRvm1V2A7opV4Q6snHP3WRA==@cases-test.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
             
             // Read only connection to PROD
             var connection = "<source>";
